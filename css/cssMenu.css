@@ -1,0 +1,67 @@
+*{
+padding:0px;
+margin:0px;
+img{
+height: 80px;
+width: 80px;
+}
+body{
+	
+	background-color:#A4B494;
+opacity: 0.8;
+background-image:  linear-gradient(30deg, #CCD3BC 12%, transparent 12.5%, transparent 87%, #CCD3BC 87.5%, #CCD3BC), linear-gradient(150deg, #CCD3BC 12%, transparent 12.5%, transparent 87%, #CCD3BC 87.5%, #CCD3BC), linear-gradient(30deg, #CCD3BC 12%, transparent 12.5%, transparent 87%, #CCD3BC 87.5%, #CCD3BC), linear-gradient(150deg, #CCD3BC 12%, transparent 12.5%, transparent 87%, #CCD3BC 87.5%, #CCD3BC), linear-gradient(60deg, #CCD3BC77 25%, transparent 25.5%, transparent 75%, #CCD3BC77 75%, #CCD3BC77), linear-gradient(60deg, #CCD3BC77 25%, transparent 25.5%, transparent 75%, #CCD3BC77 75%, #CCD3BC77);
+background-size: 20px 35px;
+background-position: 0 0, 0 0, 10px 18px, 10px 18px, 0 0, 10px 18px;
+}
+#conteudoMenu{
+	display:flex;
+	margin-top:5%;
+	flex-direction:column;
+	justify-content:center;
+	align-items: center;
+	gap:50px;
+}
+
+#menu{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items: center;
+	width:40%;
+	height:30%;
+	background-color:#3B5249;
+	border-radius:5px;
+	
+}
+#parteBotao{
+	padding:50px;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items: center;
+	gap:10px;
+}
+button{
+	width:250%;
+	height:80px;
+	border-radius:5px;
+	font-size:3em;
+	color:#CCD3BC;
+	border:#CCD3BC 4px solid;
+	background-color:#519872;
+	
+	
+}
+
+h1{
+  font-family: "Boldonse", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size:5em;
+  color:#34252F;
+}
+.boldonse-regular {
+  font-family: "Boldonse", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
